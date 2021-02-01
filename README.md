@@ -33,7 +33,7 @@ After downloading and containers installation process, these images, "python:3-o
 
 ### Important : </br>
 
-It is import to mention that when the "coordinate.oy" script will be executed for a first time, it should contain flag "-c" in order to create the containers, example :
+It is import to mention that when the "coordinate.py" script will be executed for a first time, it should contain flag "-c" in order to create the containers, example :
 ```python
 python coordinate.py -c
 ```
