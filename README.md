@@ -16,9 +16,11 @@ git clone https://github.com/JevgenijsKonevs/Docker-container-testing.git
 ```
 </br>
 • execute "coordinate.py" in terminal : 
+
 ```python
 python coordinate.py -c
 ```
+
 </br>
 • wait for program to finish and then observe the results in terminal</br>
 
