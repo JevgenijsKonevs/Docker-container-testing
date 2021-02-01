@@ -28,8 +28,8 @@ The script will download all necessary software for containers A and B, based on
 The base docker image of container-B contains Debian, apache2 and openssh server installed and it will be downloaded from https://hub.docker.com/repository/docker/jkonev/apache-ssh-img</br> Apache2 and OpenSSH servers will be then turned into "active" status, when the new image, "jkonev/containerb", will be created. </br>
 The base docker image of container-A contains "python:3-onbuild" image with all Python necessary software including Flask. </br>
 "jkonev/containera" image , which is based on "python:3-onbuild" , includes the start of Python script "rest.py: in order to automatically test container-B.</br>
-After downloading and containers installation process these images, "python:3-onbuild" and "jkonev/apache-ssh-img", will be deleted in order to save the space.</br>
-"rest.py" is listening from host machine and when request is received it will run CMD commands, that should be executed in order to test container-b reachability, and then providing the results to host machine.
+After downloading and containers installation process, these images, "python:3-onbuild" and "jkonev/apache-ssh-img", will be deleted in order to save the space.</br>
+"rest.py" is listening for a request from host machine and when it is received it will run CMD commands, that should be executed in order to test container-b reachability, and then providing the results to host machine.
 
 ### Important : </br>
 
