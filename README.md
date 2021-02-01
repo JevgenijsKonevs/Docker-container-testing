@@ -10,7 +10,11 @@ Python 3 based project for Docker container testing. By executing coordinate.py,
 
 ### How to use : </br>
 
-• git clone this repository</br>
+• git clone this repository :
+```python
+git clone https://github.com/JevgenijsKonevs/Docker-container-testing.git
+```
+</br>
 • execute "coordinate.py" in terminal : 
 ```python
 python coordinate.py -c
@@ -37,10 +41,11 @@ python coordinate.py -c
 ```
 </br> 
 After the creation, the script should be run without "-c" flag, example :
+
 ```python
-python coordinate.py
+python coordinate.py 
 ```
-</br>
+</br> 
 
 ### Results : </br>
 
