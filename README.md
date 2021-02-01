@@ -35,12 +35,12 @@ It is import to mention that when the "coordinate.oy" script will be executed fo
 ```python
 "python coordinate.py -c"
 ```
-.</br> 
+</br> 
 After the creation, the script should be run without "-c" flag, example :
 ```python
 "python coordinate.py"
 ```
-.</br>
+</br>
 
 ### Results : </br>
 
