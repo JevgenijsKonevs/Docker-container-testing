@@ -13,7 +13,7 @@ Python 3 based project for Docker container testing. By executing coordinate.py,
 • git clone this repository</br>
 • execute "coordinate.py" in terminal : 
 ```python
-"python coordinate.py -c"
+python coordinate.py -c
 ```
 </br>
 • wait for program to finish and then observe the results in terminal</br>
@@ -33,12 +33,12 @@ After downloading and containers installation process these images, "python:3-on
 
 It is import to mention that when the "coordinate.oy" script will be executed for a first time, it should contain flag "-c" in order to create the containers, example :
 ```python
-"python coordinate.py -c"
+python coordinate.py -c
 ```
 </br> 
 After the creation, the script should be run without "-c" flag, example :
 ```python
-"python coordinate.py"
+python coordinate.py
 ```
 </br>
 
